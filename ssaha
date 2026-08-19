@@ -1,1 +1,19 @@
-
+#include <iostream>
+using namespace std;
+int main() {
+    int n,o,rev=0;
+    cout << "Enter a number :";
+    cin >> n;
+    o==n;
+    while(n!=0)
+    {
+        int digit=n%10;
+        rev=rev*10+digit;
+        n=n%10;
+    }
+    if(rev==o)
+    cout << "Its palindrome";
+    else
+    cout << "Its not palindrome";
+    return 0;
+}
